@@ -34,7 +34,8 @@ nav{
     padding: 1.5rem 10% 0;
     color: white;
     align-items: center;
-    position: absolute;
+    position: fixed;
+    background-color: black;
     width: 100%;
 }
 nav span{
@@ -224,4 +225,9 @@ footer img{
     /* background-color: white; */
     padding: 1.57rem;
     /* border-radius: 40px; */
+}
+
+.section-wrapper{
+    max-width: 1080px;
+    margin: 0 auto;
 }
